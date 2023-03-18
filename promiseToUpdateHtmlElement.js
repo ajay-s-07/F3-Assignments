@@ -1,3 +1,4 @@
+
 // assignment
 function func(){
 	return new Promise((resolve) => {
@@ -7,3 +8,4 @@ function func(){
 	});
 }
 func().then((value) => document.getElementById("output").innerText = value);
+
